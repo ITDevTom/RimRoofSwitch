@@ -12,6 +12,8 @@
   <selectable>true</selectable>
   <comps>
     <li Class="CompPowerTrader"/>
+    <li Class="CompFlickable"/>
+    <li Class="RimRoofSwitch.CompRoofSwitch"/>
   </comps>
   <size>(1,1)</size>
   <statBases>

@@ -11,7 +11,7 @@ namespace RimRoofSwitch
             {
                 if (open)
                 {
-                    cell.GetRoofHolder().roofDef = null;
+                    room.Map.roofGrid.SetRoof(cell, null);
                 }
                 else
                 {

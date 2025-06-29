@@ -4,7 +4,7 @@
     <label>roof switch</label>
     <description>A switch that opens or closes the roof of the room it's in.</description>
     <graphicData>
-      <texPath>Things/Building/PowerSwitch</texPath>
+      <texPath>Things/Building/Misc/PowerSwitch</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingClass>Building</thingClass>
@@ -12,9 +12,9 @@
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <comps>
-      <li Class="CompPowerTrader"/>
-      <li Class="CompFlickable"/>
-      <li Class="RimRoofSwitch.CompRoofSwitch"/>
+      <li Class="CompProperties_Power" />
+      <li Class="CompProperties_Flickable" />
+      <li Class="RimRoofSwitch.CompProperties_RoofSwitch" />
     </comps>
     <size>(1,1)</size>
     <statBases>

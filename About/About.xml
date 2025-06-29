@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModMetaData>
   <name>Roof Switch</name>
+  <packageId>ITDevTom.RimRoofSwitch</packageId>
   <author>Tom</author>
   <url></url>
   <description>Toggle roof visibility and function using a powered switch. Compatible with all DLCs. Requires Harmony.</description>

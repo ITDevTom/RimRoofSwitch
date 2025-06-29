@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>Roof Switch</name>
+  <author>Tom</author>
+  <url></url>
+  <description>Toggle roof visibility and function using a powered switch. Compatible with all DLCs. Requires Harmony.</description>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <loadBefore>
+    <li>Harmony</li>
+  </loadBefore>
+</ModMetaData>

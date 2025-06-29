@@ -1,24 +1,26 @@
-<ThingDef ParentName="BuildingBase">
-  <defName>RoofSwitch</defName>
-  <label>roof switch</label>
-  <description>A switch that opens or closes the roof of the room it's in.</description>
-  <graphicData>
-    <texPath>Things/Building/PowerSwitch</texPath>
-    <graphicClass>Graphic_Single</graphicClass>
-  </graphicData>
-  <thingClass>Building</thingClass>
-  <altitudeLayer>Building</altitudeLayer>
-  <useHitPoints>true</useHitPoints>
-  <selectable>true</selectable>
-  <comps>
-    <li Class="CompPowerTrader"/>
-    <li Class="CompFlickable"/>
-    <li Class="RimRoofSwitch.CompRoofSwitch"/>
-  </comps>
-  <size>(1,1)</size>
-  <statBases>
-    <WorkToBuild>100</WorkToBuild>
-    <MaxHitPoints>100</MaxHitPoints>
-    <Flammability>1.0</Flammability>
-  </statBases>
-</ThingDef>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RoofSwitch</defName>
+    <label>roof switch</label>
+    <description>A switch that opens or closes the roof of the room it's in.</description>
+    <graphicData>
+      <texPath>Things/Building/PowerSwitch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <comps>
+      <li Class="CompPowerTrader"/>
+      <li Class="CompFlickable"/>
+      <li Class="RimRoofSwitch.CompRoofSwitch"/>
+    </comps>
+    <size>(1,1)</size>
+    <statBases>
+      <WorkToBuild>100</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+  </ThingDef>
+</Defs>
